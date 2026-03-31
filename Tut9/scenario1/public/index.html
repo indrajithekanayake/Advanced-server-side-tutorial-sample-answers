@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Student Management API</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div class="page">
+  <header class="page-header">
+    <div>
+      <h1>Student Management API</h1>
+      <p class="subtitle">Client-side rendering with in-memory data</p>
+    </div>
+    <button id="add-student-btn" class="primary-btn" type="button">+ Add Student</button>
+  </header>
+
+  <p id="message" class="message" style="display: none;"></p>
+
+  <main class="layout">
+    <section class="list-panel">
+      <div class="panel-heading">
+        <h2>Students</h2>
+      </div>
+      <div id="student-list"></div>
+    </section>
+
+    <section class="details-panel" id="details-panel"></section>
+  </main>
+</div>
+
+<script src="/app.js"></script>
+</body>
+</html>
