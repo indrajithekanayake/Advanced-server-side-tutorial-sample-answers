@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title><%= title %></title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 40px;
+      background: #f5f5f5;
+    }
+    .box {
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      max-width: 800px;
+      margin: auto;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    code {
+      background: #eee;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1><%= title %></h1>
+    <p>This project contains:</p>
+    <ul>
+      <li>Student Management API</li>
+      <li>Course Management API</li>
+      <li>API Key Authentication</li>
+      <li>In-memory data storage</li>
+    </ul>
+
+    <h3>Endpoints</h3>
+    <p><code>/api/students</code></p>
+    <p><code>/api/courses</code></p>
+
+    <h3>Authentication</h3>
+    <p>Send API key in header:</p>
+    <p><code>x-api-key: MY_SECRET_API_KEY_123</code></p>
+  </div>
+</body>
+</html>
